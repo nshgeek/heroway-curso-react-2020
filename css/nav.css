@@ -1,5 +1,6 @@
 nav .containernav {
     align-items: center;
+    background-color: #000000;
     color: #ffffff;
     display: flex;
     justify-content: space-between;
@@ -7,16 +8,12 @@ nav .containernav {
     position: fixed;
     width: 100%;
     padding: 20px;
-    background-color: #000000;
 }
-
 nav .menu {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
-@media (max-width: 599px) {
-    .containernav {
-        flex-direction: column;
-    }
+nav a {
+    color: #ffffff;
 }

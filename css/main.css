@@ -1,0 +1,20 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body, html {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 599px) {
+    .coluna {
+        flex-direction: column;
+    }
+}
